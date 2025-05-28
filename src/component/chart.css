@@ -1,0 +1,29 @@
+.displayData {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+/* .background{
+    background-color:rgb(128, 241, 232)
+} */
+.select-box {
+  background-color: #fff;
+  border: 2px solid steelblue; 
+  border-radius: 4px;
+  padding: 8px 10;
+  font-size: 16px;
+  width: 130;
+  cursor: pointer;
+  outline: none;
+  transition: border-color 0.2s ease-in-out, box-shadow 0.2s;
+}
+
+.select-box:hover {
+  border-color: #2c7a7b;
+}
+
+.select-box:focus {
+  border-color: #2c7a7b;
+  box-shadow: 0 0 0 2px rgba(44, 122, 123, 0.3);
+}
